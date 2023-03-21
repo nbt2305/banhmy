@@ -1,0 +1,131 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 26, 2022, 2:15:50 AM
+    Author     : ADMIN
+*/
+
+.manage-product{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.manage-product-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.search-name{
+    display: flex;
+    margin-right: 20px;
+}
+
+.search-name p{
+    margin-right: 10px;
+}
+
+.search-name input{
+    height: 30px;
+    width: 100px;
+}
+
+.search-price input{
+    height: 30px;
+    width: 100px;
+}
+
+.search-price p{
+    margin-right: 10px;
+}
+
+.search-price{
+    display: flex;
+}
+
+.manage-form-search{
+    display: flex;
+}
+
+.manage-product-add i{
+    border: 1px solid black;
+    padding: 3px 4px;
+    border-radius: 50%;
+}
+
+.manage-product-add i:hover{
+    background-color: green;
+}
+
+.change-product-row{
+    width: 80%;
+    margin: auto;
+}
+
+.change-product{
+    margin-top: 50px;
+}
+
+.old-product{
+    margin-right: 90px;
+    /* height: 700px; */
+    border: 1px solid black; 
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.old-product p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.new-product{
+    /* height: 700px; */
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.new-product p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.new-product input{
+    width: 200px;
+}
+
+.save{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+.old-product-infor{
+    margin-bottom: 0;
+}
+
+.new-product a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    padding: 12px 20px 12px 20px;
+    margin-left: 133px;
+}
+
+
+
+
+

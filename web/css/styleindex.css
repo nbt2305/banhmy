@@ -1,0 +1,786 @@
+.header{
+    background-color: green;
+}
+
+.header-content{
+    width: 80%;
+    margin: auto;
+}
+
+.header-logo img{
+    width: 50%;
+}
+
+.header-search{
+    margin: auto; 
+
+}
+
+.header-search input{
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px;
+    width: 70%;
+    height: 30px;
+}
+
+.header-search button{
+    border: none;
+    height: 30px;
+    border-radius: 10px;   
+}
+
+.header-advise{
+    display: flex;
+    margin: auto;
+}
+
+.header-advise .icon{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-advise .icon i{
+    transform: scale(2);
+    margin-right: 20px;
+    color: white;
+}
+
+.header-advise-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-shopping{
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 0;
+}
+
+.header-shopping .icon{
+    color: white    ;
+}    
+
+.header-shopping .icon i{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 8px;
+}
+
+
+.header-advise-text a{
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-item:hover{
+    background-color: green;
+    color: black;
+}
+
+.header-login{
+    display: flex;
+    margin: auto;
+}
+
+.header-login a{
+    color: white;
+    text-decoration: none;
+    background-color:#fcba03;
+    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+/*From đăng nhập*/
+
+.background-form-login{
+    display: none;
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dangNhap{
+    color: white;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+
+.icon-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.icon-close:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.icon-close i{
+    background-color: green;
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: white;
+}
+
+.form-login h4{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.user{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.user::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.user input::placeholder{
+    color: white;
+}
+
+.user input:focus{
+    outline: none;
+}
+
+.user input{
+    height: 45px;
+    width: 70%;
+    padding-left: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.user i{
+    color: white;
+    padding: 15px 10px 15px 10px;
+    margin-right: 5px;
+}
+
+.password{
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.password input:focus{
+    outline: none;
+}
+
+.password::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.password:focus::after{
+    opacity: 1;
+}
+
+.password input::placeholder{
+    color: white;
+}
+
+.password input{
+    height: 45px;
+    width: 70%;
+    padding-left: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.password i{
+    color: white;
+    padding: 15px 10px 15px 10px;
+    margin-right: 5px;
+}
+
+.forgot-pass{
+    margin-top: 130px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.forgot-pass a{
+    text-decoration: none;
+    color: white;
+}
+
+.form-login-submit{
+    position: relative;
+}
+
+.form-login-submit button{
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.submit button:hover{
+    opacity: 0.8;
+}
+
+/*Form đăng ký*/
+
+.dangKy{
+    color: white;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.background-form-signup{
+    display: none;
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.form-signup{
+    height: 450px;
+    width: 300px;
+    margin: auto;
+    position: fixed;
+    z-index: 100;
+    background-image: linear-gradient(rgb(44, 140, 44), green);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.icon-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.icon-close:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.icon-close i{
+    background-color: green;
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: white;
+}
+
+.form-signup h4{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.user{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.user::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.user input::placeholder{
+    color: white;
+}
+
+.user input:focus{
+    outline: none;
+}
+
+.user input{
+    height: 45px;
+    width: 70%;
+    padding-left: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.user i{
+    color: white;
+    padding: 15px 10px 15px 10px;
+    margin-right: 5px;
+}
+
+.password{
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.password input:focus{
+    outline: none;
+}
+
+.password::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.password:focus::after{
+    opacity: 1;
+}
+
+.password input::placeholder{
+    color: white;
+}
+
+.password input{
+    height: 45px;
+    width: 70%;
+    padding-left: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.password i{
+    color: white;
+    padding: 15px 10px 15px 10px;
+    margin-right: 5px;
+}
+
+.email{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.email::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.email input::placeholder{
+    color: white;
+}
+
+.email input:focus{
+    outline: none;
+}
+
+.email input{
+    height: 45px;
+    width: 70%;
+    padding-left: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.email i{
+    color: white;
+    padding: 15px 10px 15px 10px;
+    margin-right: 5px;
+}
+
+.password-confirm{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.password-confirm::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.password-confirm input::placeholder{
+    color: white;
+}
+
+.password-confirm input:focus{
+    outline: none;
+}
+
+.password-confirm input{
+    height: 45px;
+    width: 70%;
+    padding-left: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.password-confirm i{
+    color: white;
+    padding: 15px 10px 15px 10px;
+    margin-right: 5px;
+}
+
+.form-login-submit{
+    position: relative;
+}
+
+.form-login-submit button{
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.submit button:hover{
+    opacity: 0.8;
+}
+
+
+/*Fixed Phone Number*/
+.fixed-phone{
+    position: fixed;
+    z-index: 100;
+    bottom: 100px;
+    left: 20px;
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+
+/*Header second*/
+.bg-light{
+    background-color: #fcba03!important;
+}
+
+.header-second{
+    width: 80%;
+}
+
+.add-details{
+    display: flex;
+}
+
+.add-details i{
+    margin: auto;
+    margin-right: 10px;
+    color: red;
+}
+
+.add-details p{
+    margin: auto;
+}
+
+/*Introduction*/
+.intro{
+    margin-top: 50px;
+}
+
+.intro-details{
+    width: 80%;
+    margin: auto;
+}
+
+.intro-details-text{
+    margin: auto;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.intro-details-text h2{
+    color: green;
+    font-weight: bold;
+}
+
+.intro-details-slider-btn{
+    color: green;
+    border: 1px solid green;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 30px 10px 20px;
+    font-size: 17px;
+    transition: all ease 0.3s;
+}
+
+.intro-details-slider-btn:hover{
+    background-color: green;
+    color: white;
+    /* border: 1px solid green; */
+}
+
+/*Product*/
+.product{
+    margin-top: 50px;
+    background-color: rgb(232, 226, 226);
+    padding-bottom: 50px;
+}
+
+.card{
+    text-align: center;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+    transition: all ease 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card img{
+    position: relative;
+    transition: all ease 0.3s;
+}
+
+.card img:hover{
+    opacity: 0.8;
+    transform: scale(1);
+}
+
+.product h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.product-cards{
+    width: 80%;
+    margin: auto;
+}
+
+
+/*Gặp lỗi cần fix*/
+.product-cards-details{
+    text-align: center;
+}
+
+.product-buy{
+    background-color: #fcba03;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+.card-body{
+    padding-bottom: 30px;
+}
+
+.card-body a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-title{
+    color: green;
+}
+
+.card-title:hover{
+    cursor: pointer;
+    color: rgb(88, 197, 88);
+}
+
+.product-buy:hover{
+    background-color: green;
+}
+
+.product-row{
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.product-combo{
+    width: 90%;
+    margin: auto;
+}
+
+.product-combo img{
+    transition: all ease 0.3s;
+}
+
+.product-combo img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*Contact*/
+.contact{
+    background-color: green;
+    margin-top: 100px;
+}
+
+.contact-row{
+    margin: auto;
+}
+
+.contact-logo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-logo img{
+    padding-bottom: 30px;
+}
+
+.contact-title{
+    padding-top: 50px;
+}
+
+.contact-title-detail h3{
+    color: yellow;
+}
+
+.contact-title-detail p{
+    color: white;
+}
+
+.form-contact{
+    margin-top: 180px;
+}
+
+.contact-phone{
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+    color: green;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.contact-mess{
+    background-color: rgb(74, 74, 239);
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*footer*/
+.footer{
+    position: relative;
+    margin-top: 100px;
+}
+
+.footer-image{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.footer-image::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.footer-image img{
+    width: 100%;
+    height: 500px;
+}
+
+.footer-row{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.footer .container{
+    padding-left: 50px;
+}
+
+.footer-left{
+    width: 70%;
+}
+
+.footer-right{
+    margin: auto;
+}
+
+.footer-right-detail{
+    display: flex;
+}
+
+.footer-right-detail i{
+    padding-right: 10px;
+    padding-top: 5px;
+}

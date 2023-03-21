@@ -1,0 +1,72 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 25, 2022, 10:13:21 PM
+    Author     : ADMIN
+*/
+
+.manage-product{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.manage-product-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.search-name{
+    display: flex;
+    margin-right: 20px;
+}
+
+.search-name p{
+    margin-right: 10px;
+}
+
+.search-name input{
+    height: 30px;
+    width: 100px;
+}
+
+.search-price input{
+    height: 30px;
+    width: 100px;
+}
+
+.search-price p{
+    margin-right: 10px;
+}
+
+.search-price{
+    display: flex;
+}
+
+.manage-form-search{
+    display: flex;
+}
+
+.manage-product-add i{
+    border: 1px solid black;
+    padding: 3px 4px;
+    border-radius: 50%;
+}
+
+.manage-product-add i:hover{
+    background-color: green;
+}
+
+.leftt{
+    position: fixed;
+    width: 16.6666%;
+    background-color: green;
+    height: 100vh;
+}
+
